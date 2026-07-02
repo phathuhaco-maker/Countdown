@@ -22,7 +22,7 @@ for emoji, name, date in events:
 requests.post(
     os.environ["WEBHOOK_URL"],
     json={
-        "username": "Đinh Minh Đức",
+        "username": "Lo Mà Học",
         "avatar_url": "https://i.imgur.com/J5LVHEL.png",
         "content": message
     }
